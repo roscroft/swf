@@ -7,14 +7,15 @@ sub_dict["rank abbrev"] = ("PV1|PVT|PFC|SPC|CPL|SGT|SSG|SFC|MSG|1SG|SGM|CSM|Chie
 sub_dict["rank"] = ("private( first class)?|specialist|corporal|(staff |master |first )?sergeant( first class| major)?|(first |second |1st |2nd )?lieutenant|captain|major|(lieutenant )?colonel", "SM")
 #sub_dict["comp"] = ("NCO|NCOIC|OIC", " SM ")
 # Manually found nicknames
-sub_dict["nicknames"] = ("Nick|Greg|Ozzy|Viera|Vic|Jon|Brandon|Alex|Louie|Rich|Bill", "SM")
+sub_dict["nicknames"] = ("Nick|Greg|Ozzy|Viera|Vic|Jon|Brandon|Alex|Louie|Rich|Bill|DJ|Cuba|Russ|Ben|Milt|Josh|Myers|Chris", "SM")
 sub_dict["possessive pronoun"] = ("his|hers", "their")
 sub_dict["nominative pronoun"] = ("him|her", "them")
 sub_dict["they"] = ("he|she", "they")
 sub_dict["is"] = ("they is", "they are")
 sub_dict["was"] = ("they was", "they were")
 sub_dict["has"] = ("they has", "they have")
-sub_dict["'s'"] = ("they's", "they're")
+sub_dict["'s"] = ("they's", "they're")
+sub_dict["’s"] = ("they’s", "they're")
 
 def regex_generator(match):
     # Regex breakdown:
